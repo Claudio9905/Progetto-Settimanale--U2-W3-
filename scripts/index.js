@@ -44,7 +44,7 @@ const getProduct = function () {
                         <img src="${product.imageUrl}" class="card-img-top img-fluid w-100 rounded-5 " alt="immagine del prodotto">
                         </div>
                             <div class="card-body d-flex flex-column align-items-center">
-                                <h5 class="card-title mt-4 text-light">${product.name}</h5>
+                                <h5 class="card-title mt-4">${product.name}</h5>
                                     <p class="card-text mt-3">${product.description}</p>
                                     <p class="card-text">${product.brand}</p>
                                     <p class="card-text">${product.price} €</p>
