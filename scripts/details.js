@@ -59,6 +59,7 @@ const deleteProduct = function () {
         // l'operazione di DELETE è andata a buon fine!
         alert("ELIMINAZIONE AVVENUTA CON SUCCESSO");
         // visto che la risorsa non esiste più, riportiamo l'utente in home
+        location.assign("../index.html");
       } else {
         throw new Error("Errore in fase di eliminazione");
       }
