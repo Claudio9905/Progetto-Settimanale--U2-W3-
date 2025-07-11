@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(45deg, #628f75, transparent);
+}
+
+/* lavoro sul header */
+header nav {
+  background-image: linear-gradient(176deg, #a7cdc2bf, transparent);
+}
+
+header nav #logo-sito {
+  width: 5em;
+}
+
+main #buttonDetails {
+  background-color: rgba(0, 128, 0, 0.433);
+  background-image: linear-gradient(359deg, #7fffdd74, transparent);
+  box-shadow: 0px 0px 5px 1px #00000052;
+}
+
+/* lavoro sul form del backoffice */
+form div {
+  padding: 1em;
+}
+
+form button {
+  background-image: linear-gradient(168deg, #87e7cf8c, transparent);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.307);
+}
+
+form button:hover {
+  cursor: pointer;
+  transform: scale(1);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.49);
+  transition: all 0.2s linear 0s;
+}
