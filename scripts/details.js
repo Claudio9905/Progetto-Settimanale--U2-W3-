@@ -47,7 +47,7 @@ fetch(endpoint + "/" + eventId, {
 
 const deleteProduct = function () {
   // con questa funzione chiedo all'API di eliminare questa risorsa
-  fetch(endpoint, {
+  fetch(endpoint + "/" + eventId, {
     method: "DELETE",
     headers: {
       Authorization:
