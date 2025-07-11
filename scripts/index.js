@@ -27,6 +27,7 @@ const getProduct = function () {
     })
     .then((resData) => {
       console.log("RESPONSE:", resData);
+      document.getElementById("spinner-container").classList.add("d-none");
       //   recupero la riga per collegare le cards dove avranno i prodotti inseriti con la loro descrizione
       const row = document.getElementById("rowProduct");
       if (resData.lenght === 0) {
@@ -37,14 +38,14 @@ const getProduct = function () {
       } else {
         resData.forEach((product) => {
           row.innerHTML += `
-            <div class = "col col-12 col-md-6 col-lg-3 g-4 border border-1 border-light rounded-5 >
+            <div class = "col col-12 col-md-6 col-lg-3 g-4 border border-1 border-light rounded-5 bg-dark >
                     <div class="card p-2 d-flex flex-column">
                         <div class="border border-1 border-success rounded-5 shadow-lg mt-4">
                         <img src="${product.imageUrl}" class="card-img-top img-fluid w-100 rounded-5 " alt="immagine del prodotto">
                         </div>
                             <div class="card-body d-flex flex-column align-items-center">
-                                <h5 class="card-title mt-4 text-dark">${product.name}</h5>
-                                    <p class="card-text">${product.description}</p>
+                                <h5 class="card-title mt-4 text-light">${product.name}</h5>
+                                    <p class="card-text mt-3">${product.description}</p>
                                     <p class="card-text">${product.brand}</p>
                                     <p class="card-text">${product.price} €</p>
                                         <a href="./details.html?eventId=${product._id}" class="btn mb-2 w-75" id="buttonDetails">Visualizza dettagli</a>

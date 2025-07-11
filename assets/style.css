@@ -12,7 +12,7 @@ header nav #logo-sito {
 }
 
 main #buttonDetails {
-  background-color: rgba(0, 128, 0, 0.433);
+  background-color: rgba(96, 190, 96, 0.433);
   background-image: linear-gradient(359deg, #7fffdd74, transparent);
   box-shadow: 0px 0px 5px 1px #00000052;
 }

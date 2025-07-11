@@ -29,6 +29,7 @@ fetch(endpoint + "/" + eventId, {
   })
   .then((resData) => {
     console.log(resData);
+    document.getElementById("spinner-container").classList.add("d-none");
 
     document.getElementById("name").innerText = resData.name;
     document.getElementById("description").innerText = resData.description;
