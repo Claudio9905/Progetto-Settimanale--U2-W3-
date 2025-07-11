@@ -8,8 +8,8 @@ In Backoffice: aggiungi un bottone per la funzionalità di modifica di un prodot
 In Backoffice: aggiungi un bottone per la cancellazione di uno specifico prodotto già esistente (usa DELETE su /product/[PRODUCT_ID])
 In Backoffice: aggiungi una validazione di base per la creazione/modifica del prodotto nel form (non permettere l'invio dei dati con campi vuoti)
 In Backoffice: aggiungi un bottone “Reset” per resettare il form.
-In Homepage: premendo un bottone “modifica” su un prodotto si dovrà poterlo modificare.Pagina Dettaglio:
-A questa pagina ci si arriverà cliccando sulla card in homepage.
+In Homepage: premendo un bottone “modifica” su un prodotto si dovrà poterlo modificare.
+Pagina Dettaglio: A questa pagina ci si arriverà cliccando sulla card in homepage.
 
 EXTRA:
 In Backoffice: I bottoni “reset” e “delete” dovranno chiedere conferma prima di procedere con l’operazione.
