@@ -38,9 +38,9 @@ const getProduct = function () {
       } else {
         resData.forEach((product) => {
           row.innerHTML += `
-            <div class = "col col-12 col-md-6 col-lg-3 g-4 border border-1 border-light rounded-5 bg-dark >
-                    <div class="card p-2 d-flex flex-column">
-                        <div class="border border-1 border-success rounded-5 shadow-lg mt-4">
+            <div class = "col col-12 col-md-6 col-lg-3 g-4">
+                    <div class="card p-2 d-flex flex-column border border-1 border-light rounded-5 bg-card">
+                        <div class="mt-4">
                         <img src="${product.imageUrl}" class="card-img-top img-fluid w-100 rounded-5 " alt="immagine del prodotto">
                         </div>
                             <div class="card-body d-flex flex-column align-items-center">

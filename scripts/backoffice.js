@@ -42,7 +42,7 @@ if (eventId) {
     })
     .then((resData) => {
       console.log(resData);
-      document.getElementById("spinner-container").classList.add("d-none");
+
       document.getElementById("name").value = resData.name;
       document.getElementById("description").value = resData.description;
       document.getElementById("brand").value = resData.brand;
@@ -107,7 +107,6 @@ myForm.addEventListener(`submit`, (e) => {
   })
     .then((response) => {
       if (response.ok) {
-        document.getElementById("spinner-container").classList.add("d-none");
         alert("OPERAZIONE COMPLETATA!");
         // svuotiamo il form
         myForm.reset();

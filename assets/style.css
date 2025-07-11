@@ -12,9 +12,38 @@ header nav #logo-sito {
 }
 
 main #buttonDetails {
+  background-color: rgb(170 241 213 / 43%);
+  background-image: linear-gradient(359deg, #67a8977d, transparent);
+  box-shadow: 0px 0px 5px 1px #00000052;
+}
+
+main #buttonDetails:hover {
   background-color: rgba(96, 190, 96, 0.433);
   background-image: linear-gradient(359deg, #7fffdd74, transparent);
   box-shadow: 0px 0px 5px 1px #00000052;
+  transform: scale(1.1);
+  transition: all 0.2s linear 0s;
+}
+
+main .bg-details {
+  background-image: linear-gradient(359deg, #58ccacc8, transparent);
+  box-shadow: 0px 0px 5px 1px #00000052;
+}
+
+main .buttonStyle {
+  border: none;
+  background-image: linear-gradient(359deg, #00000026, transparent);
+  box-shadow: 0px 0px 5px 1px #00000024;
+}
+
+main .buttonStyle:hover {
+  background-image: linear-gradient(359deg, #1c1c1c5b, transparent);
+  transform: scale(1.1);
+  transition: all 0.2s linear 0s;
+}
+
+main .bg-card {
+  background-image: linear-gradient(87deg, #75ba9c, transparent);
 }
 
 /* lavoro sul form del backoffice */
